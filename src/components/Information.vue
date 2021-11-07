@@ -62,16 +62,12 @@ export default {
   name: "Information",
 
   components: {InfoPopUp},
-
-  props: {
-    infos: Array
-  },
   data: () => ({
     items: [
       {
         title: 'Qui sommes-nous ?',
         text: `Nous sommes genial !`,
-        img: 'clemanceEtColoc.jpeg',
+        img: 'chevalFace.jpg',
         popUp: {
           subtext: 'Nous sommes genial !',
           description: 'Bienvenu à l’élevage du Rivage.\n' +
@@ -79,31 +75,31 @@ export default {
               'Nous vous accueillions vous et vos chevaux dans un environnement paisible et reposant.\n' +
               'Différents types de pensions vous seront proposés. Au pré à l’année en troupeau, vos amis à quatre pattes retrouveront leurs libertés. Les chevaux auront accès à un abri et à l’eau dans des prés sécurisés par nos caméras et clôtures électriques.',
           imgs: [
-            'cavaliere.jpg',
-            'prairie.jpg',
-            'chevalChamps.jpg'
+            'chevalOeil.jpg',
+            'chevalProfile.jpg',
+            'chevalPres.jpg'
           ]
         },
       },
       {
         title: 'Notre Projet',
         text: 'Parce que c\'est notre projet !',
-        img: 'clemanceCheval.jpg',
+        img: 'chevalTrot.jpg',
         popUp: {
           subtext: 'Parce que c\'est notre projet !',
           description: 'Avec notre alimentation équilibrée et adaptée, vos chevaux seront en pleine forme !  La pension comprend une ration de granulé Haven’s matin et soir, ainsi que du foin d’une qualité exceptionnelle récolté par nos propre soins en plein cœur du marais poitevin.\n' +
               'Vous pourrez profiter de notre carrière privée afin de pouvoir y monter en toute tranquillité. De même la proximité avec la foret de Benon vous offrira de nombreuses possibilités de balades et randonnées en toutes saisons. Après vos longues promenades notre espace dédié aux soins avec douche, boxes et sellerie vous permettra de rester proche de votre compagnon tout en prenant soins de lui.',
           imgs: [
-            'chevalProfil.jpg',
-            'troisTetes.jpg',
-            'troisPoney.jpg'
+            'chevalFoin.jpg',
+            'mainCheval.jpg',
+            'coupleCheval.jpg'
           ]
         },
       },
       {
         title: 'Notre élevage',
         text: 'Vive les poneys',
-        img: 'clemanceCheval.jpg',
+        img: 'familleCheval.jpg',
         popUp: {
           subtext: 'Vive les poneys',
           description: 'Spécialisées dans l’élevage de poney de sport, nous donnons naissance chaque année à des poulains, que nous élevons et valorisons pour la vente. Possédant pour l’instant deux poulinières, nous espérons agrandir notre cheptel en avançant à vos côtés et en vous faisant profiter de notre savoir-faire et de nos expériences dans le domaine.\n' +
@@ -111,9 +107,9 @@ export default {
               'Vous rêvez d’un havre de paix pour votre cheval, loin des boxes et du stress ?\n' +
               'N’hésitez plus, contactez-nous afin d’échanger de vive voix de notre passion commune !',
           imgs: [
-            'chevalCouple.jpg',
-            'coupleCheval.jpg',
-            'poneyNoir.jpg'
+            'familleNB.jpg',
+            'poulain.jpg',
+            'poulainMere.jpg'
           ]
         },
       },

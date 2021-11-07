@@ -3,13 +3,11 @@
       class="overflow-y-auto"
   >
     <Titre/>
-
     <v-responsive
         class="text-center"
     >
-
       <v-divider></v-divider>
-      <Information v-bind:infos="infos"/>
+      <Information/>
       <v-divider></v-divider>
       <Maps/>
     </v-responsive>
@@ -28,26 +26,7 @@ export default {
 
   data: () => {
     return {
-      infos: [
-        {
-          titre: "Qui sommes-nous ?",
-          img: "clemanceEtColoc.jpeg",
-                 },
-        {
-          titre: "uiofgdhiouezhg ? ?",
-          img: "clemanceEtColoc.jpeg",
-                  },
-        {
-          titre: "Notre projet",
-          img: "clemanceCheval.jpg",
 
-        },
-        {
-          titre: "qiodcbvqdsbvcoi",
-          img: "clemanceCheval.jpg",
-
-        }
-      ],
     }
   },
 
