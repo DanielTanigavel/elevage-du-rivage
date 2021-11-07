@@ -139,5 +139,4 @@ export default {
 .show-btns {
   color: rgba(255, 255, 255, 1) !important;
 }
-
 </style>
