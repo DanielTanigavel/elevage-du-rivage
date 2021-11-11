@@ -84,13 +84,13 @@ export default {
       {
         title: 'Notre Projet',
         text: 'Parce que c\'est notre projet !',
-        img: 'chevalTrot.jpg',
+        img: 'chevalFoin.jpg',
         popUp: {
           subtext: 'Parce que c\'est notre projet !',
           description: 'Avec notre alimentation équilibrée et adaptée, vos chevaux seront en pleine forme !  La pension comprend une ration de granulé Haven’s matin et soir, ainsi que du foin d’une qualité exceptionnelle récolté par nos propre soins en plein cœur du marais poitevin.\n' +
               'Vous pourrez profiter de notre carrière privée afin de pouvoir y monter en toute tranquillité. De même la proximité avec la foret de Benon vous offrira de nombreuses possibilités de balades et randonnées en toutes saisons. Après vos longues promenades notre espace dédié aux soins avec douche, boxes et sellerie vous permettra de rester proche de votre compagnon tout en prenant soins de lui.',
           imgs: [
-            'chevalFoin.jpg',
+            'chevalTrot.jpg',
             'mainCheval.jpg',
             'coupleCheval.jpg'
           ]
